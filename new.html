@@ -1,0 +1,419 @@
+<html>
+
+<head>
+	<title>	geometric plane figures </title>
+
+	<style type = "text/css" >
+		
+			.container{
+				max-width : 2000px;
+				margin : 40px 40px 40px 40px;
+				padding : 25px 0px 10px 0px;
+				min-height : 700px;
+				border : solid black;
+				background-color:black;
+			
+			
+			}
+			
+			#Square1
+			{
+				background-color : #cdb4db;
+				border : solid;
+				border-radius : 0px;
+				border-color : white;
+				position : relative;
+				animation-delay:0.1s;
+				
+			}
+			
+			#Square2
+			{
+				background-color : #bde0fe;
+				border : solid;
+				border-top-right-radius : 40px;
+				border-color : white;
+				position : relative;
+				animation-delay:0.5s;
+				
+				
+			
+			} 
+		
+			#Square3
+			{
+				background-color : #bde0fe;
+				border : solid;
+				border-bottom-left-radius : 40px;
+				border-color : white;
+				position : relative;
+				animation-delay:0.9s
+
+			}
+			
+			#Square4
+			{
+				background-color : #ffc8dd;
+				border : solid;
+				border-radius : 0px;
+				border-color : white;
+				position : relative;
+				animation-delay:1.2s;
+			}
+
+			.figure
+			{
+				width : 150px;
+				height : 150px;
+				float : left;
+				
+			
+			
+			
+			}
+			
+			.figure_2{
+				width : 150px;
+				height : 150px;
+				float : right;
+			
+			}
+			
+			.try{
+				display:flex;
+				margin : 0px 0px 0px 10px;
+			
+			}
+			
+			.why{
+				display:flex;
+				margin : 0px 0px 0px 1080px;
+			
+			}
+			
+			#square1_1{
+				width : 100px;
+				height : 100px;
+				padding : 0px;
+				background : rgba(189, 224, 254, 0.6);
+				
+				position : absolute;
+				
+				top : 0;
+				right : 0;
+				
+				animation-delay:0.2s;
+				
+				
+			}
+			
+			
+			
+			#square1_1_1{
+				
+				position : absolute;
+				
+				top : 0;
+				right : 0;
+				
+				animation-delay:0.6s;
+				
+				
+				
+			
+			}
+			
+			
+			#square1_2{
+
+				
+				position : absolute;
+				
+				bottom : 0;
+				left : 0;
+				
+				animation-delay:1s
+				
+			
+			}
+			
+			
+			.identical_1{
+				width : 90px;
+				height : 90px;
+				padding : 0px;
+				background-color : #ffc8dd;
+				
+			}
+			
+			#circle1{
+				width : 140px;
+				height : 140px;
+				border-radius : 50%;
+				padding : 0px;
+				background: rgba(205, 180, 219, 0.6);
+				position : absolute;
+				
+				top : 0;
+				left : 0;
+				
+				animation-delay : 0.3s;
+				
+			}
+			
+			#circle1_1{
+				width : 100px;
+				height : 100px;
+				border-radius : 50%;
+				padding : 0px;
+				background-color :#ffc8dd; 
+				position : absolute;
+				top : 0;
+				left : 0;
+				
+				animation-delay:0.7s;
+			
+			}
+			
+			#circle1_1_1{
+				width : 70px;
+				height : 70px;
+				border-radius : 50%;
+				padding : 0px;
+				background-color : #cdb4db;
+				position : absolute;
+				
+				top : 0;
+				left : 0;
+				
+				animation-delay:1.1s;
+			
+					
+			}
+			
+			#circle2{
+				position : absolute;
+				
+				top : 0;
+				left : 0;
+			    animation-delay:1.1s;
+			}
+			
+			#circle3{
+				position : absolute;
+				
+				bottom : 0;
+				right : 0;
+				animation-delay:1.1s;
+			}
+			
+			.identical_2{
+				width : 80px;
+				height : 80px;
+				border-radius : 50%;
+				padding : 0px;
+				background-color : #ffc8dd;
+				
+				
+			}
+			
+			#circle4{
+				width : 80px;
+				height : 80px;
+				border-radius : 50%;
+				padding : 20px;
+				background: rgba(205, 180, 219, 0.6);
+				position : absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+				
+				animation-delay:0.7s;
+
+			}
+			
+			#circle4_1{
+				width : 60px;
+				height : 60px;
+				border-radius : 50%;
+				padding : 20px;
+				background: rgba(189, 224, 254, 0.6);
+				position : absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+				
+				animation-delay:0.3s;
+			
+			}
+			
+			#Triangle1{
+				width : 0;
+				height : 0;
+				border-bottom : 151px solid #bde0fe;
+				border-right : 140px solid transparent;
+				
+				animation-delay : 0.8s;
+
+			
+			}
+	
+			#Triangle1_1{
+			
+				width : 0;
+				height : 0;
+				border-bottom : 110px solid #cdb4db;
+				border-right : 100px solid transparent;
+				position : absolute;
+				
+				bottom : 0;
+				left : 0;
+				
+				animation-delay : 0.2s;
+			}
+			
+			#square4_1{
+				width : 77px;
+				height : 77px;
+				padding : 0px;
+				background-color : #cdb4db;
+				position : absolute;
+				
+				top : 0;
+				right : 0;
+				
+				animation-delay:1.2s;
+			}
+			
+			#square4_1_1{
+				width : 62px;
+				height : 62px;
+				padding : 0px;
+				background : rgba(189, 224, 254, 0.6);
+				position : absolute;
+				
+				top : 0;
+				right :0;
+				
+				animation-delay:1.7s;
+			}
+			
+			.anim{
+				opacity : 0;
+				animation : fadein 1.5s linear forwards;
+			
+			
+			}
+			
+			@keyframes fadein {
+				100%{
+					opacity : 1;
+				}
+			}
+	
+		</style>
+</head>
+
+<body>
+
+<div class = "container"> <div class = "try">
+
+	<div id= "Square1" class = "figure anim">
+		<div id = "square1_2" class = "identical_1 anim"> </div>
+	
+		<div id = "square1_1" class="anim">
+			<div id = "square1_1_1" class = "identical_1 anim"></div>
+		</div>
+		
+		
+	</div>
+	
+	<div id= "Square2" class = "figure anim">
+		<div id = "circle1" class = "anim">
+			<div id = "circle1_1"class = "anim"> 
+				<div id = "circle1_1_1" class = "anim"></div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<div class = "try">
+	<div id= "Square3" class = "figure anim">
+		<div id = "circle2" class = "identical_2 anim"></div>
+		<div id = "circle3" class = "identical_2 anim"></div>
+		<div id = "circle4" class = "anim">
+			<div id = "circle4_1" class = "anim"></div>
+		</div>
+	
+	</div>
+	
+	<div id = "Square4" class = "figure anim">
+		<div id = "Triangle1" class = "anim">
+			<div id = "Triangle1_1" class = "anim"></div>
+		</div>
+		
+		<div id = "square4_1" class = "anim"> 
+			<div id = "square4_1_1" class = "anim"></div>
+		</div>
+	</div>
+</div>
+
+<div class = "why">
+
+	<div id= "Square1" class = "figure_2 anim">
+		<div id = "square1_2" class = "identical_1 anim"> </div>
+	
+		<div id = "square1_1" class = "anim">
+			<div id = "square1_1_1" class = "identical_1 anim"></div>
+		</div>
+		
+		
+	</div>
+	
+	<div id= "Square2" class = "figure_2 anim">
+		<div id = "circle1" class = "anim">
+			<div id = "circle1_1" class = "anim"> 
+				<div id = "circle1_1_1" class = "anim"></div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<div class = "why">
+	<div id= "Square3" class = "figure_2 anim">
+		<div id = "circle2" class = "identical_2 anim"></div>
+		<div id = "circle3" class = "identical_2 anim"></div>
+		<div id = "circle4" class = "anim">
+			<div id = "circle4_1" class = "anim"></div>
+		</div>
+	
+	</div>
+	
+	<div id = "Square4" class = "figure_2 anim">
+		<div id = "Triangle1" class = "anim">
+			<div id = "Triangle1_1" class = "anim"></div>
+		</div>
+		
+		<div id = "square4_1" class = "anim"> 
+			<div id = "square4_1_1" class = "anim"></div>
+		</div>
+	</div>
+	
+</div></div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
